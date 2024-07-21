@@ -1,0 +1,50 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* Changes for [dark | light] mode */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]),
+  html[data-mode='dark'] {
+    --sidebar-hover-bg: #073145;
+    
+    #sidebar ul li.nav-item a.nav-link:hover {
+      color: $sidebar-link-hover-dark;
+      background-color: $sidebar-hover-bg-dark
+    }
+
+    %link-hover {
+      color: $link-color-hover-dark !important;
+      border-bottom: 1px solid $link-color-hover-dark;
+    }
+  }
+
+  html[data-mode=light] {
+    --sidebar-active-color: #FFFF;
+    --sidebar-hover-bg: #0b4a69;
+    
+    #sidebar ul li.nav-item a.nav-link:hover {
+      color: $sidebar-link-hover-light;
+    }
+
+    %link-hover {
+      color: $link-color-hover-light !important;
+      border-bottom: 1px solid $link-color-hover-light;
+    }
+  }
+}
+
+#panel-wrapper .btn {
+  &:hover {
+    color: $post-tag-color-hover;
+    background-color: $post-tag-bg-hover;
+    border-color: $post-tag-border-color !important;
+  }
+}

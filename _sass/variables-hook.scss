@@ -1,0 +1,24 @@
+/*
+  Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
+*/
+
+/* Changes for [dark | light] mode */
+
+$primary: #073145;
+$secondary: #5eead4;
+$white: #FFFF;
+
+/* [Dark] */
+$link-color-hover-dark: $secondary;
+$sidebar-hover-bg-dark: #052433;
+$sidebar-links-dark: $secondary;
+$sidebar-link-hover-dark: $secondary;
+$post-tag-color-hover: $white;
+$post-tag-bg-hover: $primary;
+$post-tag-border-color: $primary;
+
+/*  [Light] */
+$link-color-hover-light: $primary;
+$sidebar-hover-bg-light: #5387a1;
+$sidebar-links-light: $secondary;
+$sidebar-link-hover-light: $white;
