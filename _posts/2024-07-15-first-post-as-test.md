@@ -5,7 +5,7 @@ categories: [Blogging, Post]
 tags: [escrevendo]     # TAG names should always be lowercase
 description: Breve descrição do post...
 pin: true
-image: assets/img/avatar/alex-viana-logo.png
+image: assets/img/posts/Blog-Preview-Img.jpg
 ---
 
 ## Essa imagem irá se alterar quando mudar o tema para claro ou escuro ![icon-change-theme - light](assets/img/posts/theme-change-light.png){: .light w="25"}![icon-change-theme -dark ](assets/img/posts/theme-change-dark.png){: .dark w="25"}
