@@ -6,7 +6,6 @@
   .bundle
 {%- endif -%}
 ';
-
 /* append your custom style below */
 
 /* Changes for [dark | light] mode */
@@ -48,3 +47,22 @@
     border-color: $post-tag-border-color !important;
   }
 }
+
+/* Variables */
+/* Changes for [dark | light] mode */
+$primary: #073145;
+$secondary: #5eead4;
+$white: #FFFF;
+/* [Dark] */
+$link-color-hover-dark: $secondary;
+$sidebar-hover-bg-dark: #052433;
+$sidebar-links-dark: $secondary;
+$sidebar-link-hover-dark: $secondary;
+$post-tag-color-hover: $white;
+$post-tag-bg-hover: $primary;
+$post-tag-border-color: $primary;
+/*  [Light] */
+$link-color-hover-light: $primary;
+$sidebar-hover-bg-light: #5387a1;
+$sidebar-links-light: $secondary;
+$sidebar-link-hover-light: $white;
